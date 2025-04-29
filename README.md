@@ -1,7 +1,5 @@
 # site-simples-com-html-e-css
 
-Como criar um script para automatizar a instalação do apache2, juntamente com a criação, configuração e execução deste.
-
 Step 1: Deve ser criado o arquivo "script.sh" utilizando o comando nano, o comando vai permitir a edição e deve ser colocado "#! /bin/bash" para representar que é um script;
 
 Step 2: Verificar se o apache2 está instalado, utilizando o comando if na linha de código "if [ ! -x /etc/init.d/apache2 ] (onde a ! representa negação e o -x representa a execução), caso (then) não seja possível encontrar/executar o arquivo, as linhas de código "sudo apt-get update" e em seguida "sudo apt-get install apache2 -y" (onde -y irá confirmar algum pedido) irão instalar o apache2;
